@@ -9,7 +9,7 @@ class UserController extends Controller
 {
     public function index()
     {
-        $users = User::all();
+        $users = User::query()->paginate(5);
         return response()->json($users);
     }
 }
