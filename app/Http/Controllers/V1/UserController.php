@@ -14,7 +14,7 @@ class UserController extends Controller
     {
         // $users = User::query()->limit(1)->first();
         $users = User::all();
-        throw new UserException();
+        // throw new UserException();
         return new UserResource($users);    
     }
 }
