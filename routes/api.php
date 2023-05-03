@@ -3,6 +3,7 @@
 use App\Http\Controllers\V1\ArticleController;
 use App\Http\Controllers\V1\UploadController;
 use App\Http\Controllers\V1\UserController;
+use App\Http\Controllers\V2\HomeController;
 use App\Http\Controllers\V2\LoginController;
 use App\Http\Controllers\V2\RegisterController;
 
